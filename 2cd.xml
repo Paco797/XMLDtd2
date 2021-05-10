@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE COLECCION [
+<!ELEMENT COLECCION (CD)>
+<!ELEMENT CD (artista , titulo , sello , referencia , anyo , pais , formato , observaciones , genero , canciones)>
+<!ELEMENT artista (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT sello (#PCDATA)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT canciones (contenido_cd)>
+<!ELEMENT contenido_cd (cancion)>
+<!ATTLIST contenido_cd numero CDATA #REQUIRED>
+<!ELEMENT cancion (titulo)>
+<!ATTLIST cancion numero CDATA #REQUIRED>
+]>
+<COLECCION>
+<CD>
+  <artista>The Beatles</artista> 
+  <titulo>A hard day's night</titulo> 
+  <sello>Emy Records</sello> 
+  <referencia>CDP7464372</referencia> 
+  <anyo>1964</anyo> 
+  <pais>Inglaterra</pais> 
+  <formato>CD</formato> 
+  <observaciones>1964 Original Sound Recording made by Emi Records</observaciones> 
+  <genero>Rock</genero> 
+   <canciones>
+      <contenido_cd numero="1">
+       <cancion numero="1">
+         <titulo>I Should Have Know Better</titulo> 
+       </cancion>
+       <cancion numero="02">
+        <titulo>I Should Have Know Better</titulo> 
+       </cancion>
+       <cancion numero="03">
+         <titulo>If i Fell</titulo> 
+       </cancion>
+       <cancion numero="04">
+         <titulo>I'm Happy Just to Dancd With You</titulo> 
+      </cancion>
+       <cancion numero="05">
+         <titulo>And I Love Her</titulo> 
+       </cancion>
+       <cancion numero="06">
+          <titulo>Tell My Why</titulo> 
+       </cancion>
+       <cancion numero="07">
+         <titulo>Can't Buy Me Love</titulo> 
+       </cancion>
+     </contenido_cd>
+    </canciones>
+   </CD>
+  <CD>
+  <artista>The Beatles</artista> 
+  <titulo>Abbey Road</titulo> 
+  <sello>Emy Records</sello> 
+  <referencia>CDP7464462</referencia> 
+  <anyo>1969</anyo> 
+  <pais>Inglaterra</pais> 
+  <formato>CD</formato> 
+  <observaciones>1969 Original Sound Recording made by Emi Records</observaciones> 
+  <genero>Rock</genero> 
+  <canciones>
+    <contenido_cd numero="1">
+      <cancion numero="01">
+         <titulo>Come Together</titulo> 
+      </cancion>
+     <cancion numero="02">
+       <titulo>Something</titulo> 
+     </cancion>
+     <cancion numero="03">
+        <titulo>Maxwell Silver Hammer</titulo> 
+       </cancion>
+       <cancion numero="04">
+         <titulo>Oh! Darling</titulo> 
+       </cancion>
+        <cancion numero="05">
+        <titulo>Octopus's Garden</titulo> 
+        </cancion>
+         <cancion numero="06">
+           <titulo>I Want You</titulo> 
+        </cancion>
+        <cancion numero="07">
+          <titulo>Here Comes The San</titulo> 
+        </cancion>
+        <cancion numero="08">
+            <titulo>Becausel</titulo> 
+        </cancion>
+        <cancion numero="09">
+           <titulo>You Nerver Give Me Your Money</titulo> 
+        </cancion>
+        <cancion numero="10">
+           <titulo>Sun King</titulo> 
+        </cancion>
+       <cancion numero="11">
+          <titulo>Mean Mr mustang</titulo> 
+        </cancion>
+        <cancion numero="12">
+            <titulo>Polythene Palm</titulo> 
+        </cancion>
+        <cancion numero="13">
+           <titulo>She Came In Through The Bathroom Window</titulo> 
+        </cancion>
+        </contenido_cd>
+          </canciones>
+   </CD>
+    <CD>
+  <artista>The Rolling Stones</artista> 
+  <titulo>Flowers</titulo> 
+  <sello>London Records</sello> 
+  <referencia>CD8201392</referencia> 
+  <anyo>1967</anyo> 
+  <pais>Inglaterra</pais> 
+  <formato>CD</formato> 
+  <observaciones/> 
+  <genero>Rock</genero> 
+  <canciones>
+     <contenido_cd numero="1" duracion="36.56">
+       <cancion numero="01">
+            <titulo>Ruby Tuesday</titulo> 
+            <compositor>Jagger</compositor> 
+           <compositor>Richards</compositor> 
+           <duracion>
+              <minutos>3</minutos> 
+              <segundos>15</segundos> 
+            </duracion>
+        </cancion>
+         <cancion numero="02">
+  <titulo>Have You Seen Your Mother , Baby, Standing In The Shadow?</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>2</minutos> 
+  <segundos>33</segundos> 
+  </duracion>
+    </cancion>
+  <cancion numero="03">
+  <titulo>Let's Spend The Night together</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+    <duracion>
+  <minutos>3</minutos> 
+  <segundos>36</segundos> 
+    </duracion>
+      </cancion>
+   <cancion numero="04">
+  <titulo>Lady Jane</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+  <duracion>
+  <minutos>3</minutos> 
+  <segundos>06</segundos>
+  </duracion>
+    </cancion>
+ <cancion numero="05">
+  <titulo>Out Of Time</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+ <duracion>
+  <minutos>3</minutos> 
+  <segundos>42</segundos> 
+    </duracion>
+  </cancion>
+<cancion numero="06">
+  <titulo>My Girl</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>2</minutos> 
+  <segundos>38</segundos> 
+  </duracion>
+  </cancion>
+<cancion numero="07">
+  <titulo>Back Street Girl</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>3</minutos> 
+  <segundos>26</segundos> 
+  </duracion>
+  </cancion>
+<cancion numero="08">
+  <titulo>Please Go Home</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>3</minutos> 
+  <segundos>16</segundos> 
+  </duracion>
+  </cancion>
+<cancion numero="09">
+  <titulo>Mother's Littel Helper</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>2</minutos> 
+  <segundos>43</segundos> 
+  </duracion>
+  </cancion>
+<cancion numero="10">
+  <titulo>Take It Or Leave It</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>2</minutos> 
+  <segundos>46</segundos> 
+  </duracion>
+  </cancion>
+<cancion numero="11">
+  <titulo>Ride on, Baby</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>2</minutos> 
+  <segundos>53</segundos> 
+  </duracion>
+  </cancion>
+<cancion numero="12">
+  <titulo>Sittin' On A Face</titulo> 
+  <compositor>Jagger</compositor> 
+  <compositor>Richards</compositor> 
+<duracion>
+  <minutos>3</minutos> 
+  <segundos>02</segundos> 
+  </duracion>
+  </cancion>
+    </contenido_cd>
+  </canciones>
+  </CD>
+  </COLECCION>
